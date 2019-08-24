@@ -1,6 +1,6 @@
 #include "yespower.h"
 /* 
- * yespower for bellcoin
+ * yespower for sugarchain
  */
 int yespower_hash(const char *input, char *output)
 {

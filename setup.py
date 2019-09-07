@@ -1,4 +1,4 @@
-from distutils.core import setup, Extension
+from setuptools import setup, Extension
 
 sugar_yespower_module = Extension('sugar_yespower',
                             sources = ['yespower-module.c',
@@ -10,7 +10,7 @@ sugar_yespower_module = Extension('sugar_yespower',
                             include_dirs=['.'])
 
 setup (name = 'sugar_yespower',
-       version = '1.0.0',
+       version = '1.0.1',
        author_email = 'yuto_tetuota@yahoo.co.jp',
        author = 'y-chan',
        url = 'https://github.com/sugarchain-dev/sugar_yespower_python3',

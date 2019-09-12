@@ -13,6 +13,6 @@ setup (name = 'sugar_yespower',
        version = '1.0.1',
        author_email = 'yuto_tetuota@yahoo.co.jp',
        author = 'y-chan',
-       url = 'https://github.com/sugarchain-dev/sugar_yespower_python3',
+       url = 'https://github.com/sugarchain-project/sugar_yespower_python3',
        description = 'Bindings for yespower-1.0 proof of work used by sugarchain',
        ext_modules = [sugar_yespower_module])
